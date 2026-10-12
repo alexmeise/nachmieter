@@ -1,13 +1,15 @@
-title: Nachmieter gesucht
+title: Villa à Donatyre
 description: >-
-  Schöne Wohnung zur Übernahme — Fotos, Details und Kontakt.
-author:
-  name: Max Mustermann
-  email: max.mustermann@example.com
+  Magnifique villa individuelle à Donatyre — lumineuse, grand jardin,
+  géothermie et panneaux solaires.
 
 # Set this to "<github-user>/<repo>" once the repo exists.
 # Needed by the github-pages metadata plugin for local builds.
 repository: alexmeise/nachmieter
+
+# Site served under https://alexandermeise.com/nachmieter/
+url: https://alexandermeise.com
+baseurl: /nachmieter
 
 # minima is the default GitHub Pages theme
 theme: minima
@@ -15,10 +17,6 @@ theme: minima
 # minima options
 minima:
   skin: classic
-  nav_pages:
-    - index.md
-    - galerie.md
-    - kontakt.md
 
 # Build settings
 markdown: kramdown
