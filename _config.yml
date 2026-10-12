@@ -1,0 +1,32 @@
+title: Nachmieter gesucht
+description: >-
+  Schöne Wohnung zur Übernahme — Fotos, Details und Kontakt.
+author:
+  name: Max Mustermann
+  email: max.mustermann@example.com
+
+# Set this to "<github-user>/<repo>" once the repo exists.
+# Needed by the github-pages metadata plugin for local builds.
+repository: alexmeise/nachmieter
+
+# minima is the default GitHub Pages theme
+theme: minima
+
+# minima options
+minima:
+  skin: classic
+  nav_pages:
+    - index.md
+    - galerie.md
+    - kontakt.md
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
